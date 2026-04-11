@@ -8,7 +8,7 @@ const plugins = [react(), tailwindcss()];
 const PROJECT_ROOT = import.meta.dirname;
 
 export default defineConfig({
-  base: "./" + (process.env.NODE_ENV === "production" ? "public/" : ""),
+  base: "./",
   plugins,
   resolve: {
     alias: {
